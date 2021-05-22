@@ -2,7 +2,7 @@
   "name": "aki-api.ts",
   "version": "1.0.0",
   "description": "Aki-API with Type Declarations",
-  "main": "index.js",
+  "main": "Dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,5 +22,10 @@
   "devDependencies": {
     "@typescript-eslint/parser": "^4.24.0",
     "eslint": "^7.26.0"
-  }
+  },
+  "files": [
+    "Dist/**/*",
+    "tsconfig.json",
+    "package.json"
+  ]
 }
