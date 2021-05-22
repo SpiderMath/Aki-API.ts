@@ -9,7 +9,7 @@ const Client_1 = require("./Constants/Client");
 const AkinatorAPIErrors_1 = __importDefault(require("../Errors/AkinatorAPIErrors"));
 const Request_1 = __importDefault(require("./Functions/Request"));
 class Akinator {
-    constructor(region, childMode) {
+    constructor(region, childMode = false) {
         this.uid = "";
         this.frontaddr = "";
         this.session = "";

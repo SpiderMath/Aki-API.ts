@@ -23,7 +23,7 @@ class Akinator {
 	public challenge_auth: string = "";
 	public guessCount: number | undefined;
 
-	constructor(region: string, childMode: boolean) {
+	constructor(region: string, childMode: boolean = false) {
 	  this.currentStep = 0;
 	  this.region = region;
 	  this.uri = undefined;

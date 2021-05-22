@@ -19,7 +19,7 @@ declare class Akinator {
     signature: string;
     challenge_auth: string;
     guessCount: number | undefined;
-    constructor(region: string, childMode: boolean);
+    constructor(region: string, childMode?: boolean);
     /**
     * Starts the akinator session and game.
     */
