@@ -1,0 +1,26 @@
+{
+  "name": "aki-api.ts",
+  "version": "1.0.0",
+  "description": "Aki-API with Type Declarations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpiderMath/Aki-API.ts.git"
+  },
+  "author": "Defective Detective",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SpiderMath/Aki-API.ts/issues"
+  },
+  "homepage": "https://github.com/SpiderMath/Aki-API.ts#readme",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^4.24.0",
+    "eslint": "^7.26.0"
+  }
+}
